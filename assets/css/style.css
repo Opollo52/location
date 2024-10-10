@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*--------------------------nav----------------------------*/
+
+body {
+    margin: 0;
+}
+
+#haut img{
+    width: 100px;
+}
+
+#haut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+#image-nav {
+    display: flex;
+    justify-content: center;
+}
+
+#navigation {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#navigation a:hover {
+    transition: 0.8s ease, 0.3s ease;
+    background-color:rgba(144, 144, 144, 0.2);
+}
+
+/*-------------------------vectorielle-------------------------*/
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 350%;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.vector {
+    width: 90px;
+}
+
+.lienvector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#quechoisir {
+    background-image: url(../img/foret.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+#quechoisir nav {
+    background-color: rgba(206, 206, 206, 0.4);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*---------------------Notre Séléction--------------------*/
+
+
+h2 {
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+.articles {
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.8s ease, 0.3s ease;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.articles img {
+    width: 100%;
+}
+
+div {
+    display: grid;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.six {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.articles:hover {
+    transform: scale(1.1);
+}
+
+/*---------------------footer----------------------------*/
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(../img/foret.jpg);
+    background-position: end;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a {
+    color: blueviolet;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+h3, h4, .prix {
+    color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .vector {
+        width: 50px;
+    }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .four {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .five {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .six {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .three {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .four {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .five {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .six {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+}
