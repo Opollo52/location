@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Manoir de Gerville</title>
+    <link rel="stylesheet" href="../../assets/css/biens.css">
+</head>
+<body>
+    <header>
+        <!--navigation-->
+        <div id="haut">
+            <div id="image-nav">
+                <a href="../../index.html"><img src="../../assets/img/logo.png" alt=""></a>
+            </div>
+            <nav id="navigation">
+                <a href="../../index.html">Accueil</a>
+                <a href="../../biens/catalogue.html">Catalogue</a>
+                <a href="../../contact.html">Nous Contacter</a>
+            </nav>
+        </div>
+    </header>
+    <h1>Le Manoir de Gerville</h1>
+    <div class="photo">
+        <img class="box one" src="../../assets/img/demeure/demeure2/demeure2_1.jpg" alt="">
+        <div class="colonne2">
+            <img class="box two" src="../../assets/img/demeure/demeure2/demeure2_2.jpg" alt="">
+            <img class="box three" src="../../assets/img/demeure/demeure2/demeure2_3.jpg" alt="">
+        </div>
+        <div class="colonne3">
+            <img class="box four" src="../../assets/img/demeure/demeure2/demeure2_4.jpg" alt="">
+            <img class="box five" src="../../assets/img/demeure/demeure2/demeure2_5.jpg" alt="">
+        </div>
+    </div>
+    <h2>Description</h2>
+    <div class="description">
+        <p>
+            Grande maison de famille à 2h de Paris. La plage à 5km. 3hectares de parc. Capacité 17 personnes maximum. COVID 19 : la maison fait l’objet d’une désinfection après chaque séjour.
+
+            Les évènements tels que mariages etc sont envisables en fonction du nombre de personnes, et selon des modalités financières différentes.
+            Le logement
+            Petit château cauchois datant des 16 et 18eme siècle, entouré de trois hectares de parc.
+        </p>
+    </div>
+    <div class="avis">
+        <div class="para1">
+            <h3>
+                Avis
+            </h3>
+            <p class="note">
+                4.97/5
+            </p>
+            <p class="etoile">
+                ★★★★★
+            </p>
+        </div>
+        <!--menu déroulant-->
+        <div class="reserv para2">
+            <h2>
+                Réservation
+            </h2>
+            <div class="date">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="0af7b28c-99f7-4d32-8b67-3062d59ddb50">
+                    <table>
+                        <tr>
+                            <th><label for="datedebut">Date de début :</label></th>
+                            <td><input type="date" name="datefin" required/></td>
+                        </tr>
+                        <tr>
+                            <th><label for="datefin">Date de fin :</label></th>
+                            <td><input type="date" name="datedebut" required/></td>
+                        </tr>
+                        <tr>
+                            <th>Nombres de voyageurs : </th>
+                            <td>
+                                <!--menu déroulant-->
+                                <select name="voyageurs">
+                                    <optgroup>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <input id="bouton" type="submit" value="Envoyer">
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <h2>Vous pouvez aussi aimer :</h2>
+    <div class="recommandation">
+        <section class="articles recoone">
+            <a href="../../biens/grandes demeures/demeure1.html">
+                <!--image-->
+                <img src="../../assets/img/demeure/demeure1/demeure1_1.webp" alt="image d'une maison en bord de mer"> 
+                <!--nom-->
+                <h3>Château familial près de la cathédrale de Beauvais</h3>
+                <!--location-->
+                <h4>Allonne, France</h4>
+                <!--prix-->
+                <p class="prix">410€ / nuits</p>
+                <!--envoie vers une page descriptive-->
+            </a>
+        </section>
+        <section class="articles recotwo">
+            <a href="../../biens/grandes demeures/demeure3.html">
+                <!--image-->
+                <img src="../../assets/img/demeure/demeure3/demeure3_1.jpg" alt="image d'une maison en bord de mer"> 
+                <!--nom-->
+                <h3>Manoir Normand avec piscine</h3>
+                <!--location-->
+                <h4>Mesnils-sur-Iton, France</h4>
+                <!--prix-->
+                <p class="prix">1520€ / nuits</p>
+                <!--envoie vers une page descriptive-->
+            </a>
+        </section>
+    </div>
+    <footer id="footer">
+        <h2>Nous contacter</h2>
+        <p>Téléphone : 06.46.54.61.06</p>
+        <p>Email : eliott.pissis@supinfo.com</p>
+        <a href="../../contact.html"><p>Envoyer directement un message</p></a>
+        <p>&copy;Eliott Pissis - 2024</p>
+    </footer>
+</body>
+</html>
