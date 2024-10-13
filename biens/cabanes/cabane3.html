@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pine Lodge - Lakeside Retreat</title>
+    <link rel="stylesheet" href="../../assets/css/biens.css">
+</head>
+<body>
+    <header>
+        <!--navigation-->
+        <div id="haut">
+            <div id="hautinterieur">
+                <div id="image-nav">
+                    <a href="../../index.html"><img src="../../assets/img/logo.png" alt="Logo E-Location"></a>
+                </div>
+                <nav id="navigation">
+                    <a href="../../index.html">Accueil</a>
+                    <a href="../../biens/catalogue.html">Catalogue</a>
+                    <a href="../../contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1>Pine Lodge - Lakeside Retreat</h1>
+    <div class="photo">
+        <img class="box one" src="../../assets/img/cabane/cabane3/cabane3_1.jpg" alt="vu globale de la cabane">
+        <div class="colonne2">
+            <img class="box two" src="../../assets/img/cabane/cabane3/cabane3_2.jpg" alt="cabane vu de devant">
+            <img class="box three" src="../../assets/img/cabane/cabane3/cabane3_3.jpg" alt="entrée de la cabane avec escalier">
+        </div>
+        <div class="colonne3">
+            <img class="box four" src="../../assets/img/cabane/cabane3/cabane3_4.jpg" alt="vu du salon avec canapé">
+            <img class="box five" src="../../assets/img/cabane/cabane3/cabane3_5.jpg" alt="vu de la télévision avec commode">
+        </div>
+    </div>
+    <h2>Description</h2>
+    <div class="description">
+        <p>
+            Bel endroit paisible au bord de nos lacs à Headlands Farm. Détendez-vous dans cet espace calme, élégant et bien équipé.
+        </p>
+    </div>
+    <div class="avis">
+        <div class="para1">
+            <h3>
+                Avis
+            </h3>
+            <p class="note">
+                4.97/5
+            </p>
+            <p class="etoile">
+                ★★★★★
+            </p>
+        </div>
+        <!--menu déroulant-->
+        <div class="reserv para2">
+            <h2>
+                Réservation
+            </h2>
+            <div class="date">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="0af7b28c-99f7-4d32-8b67-3062d59ddb50">
+                    <table>
+                        <tr>
+                            <th><label for="datedebut">Date de début :</label></th>
+                            <td><input type="date" name="datefin" required/></td>
+                        </tr>
+                        <tr>
+                            <th><label for="datefin">Date de fin :</label></th>
+                            <td><input type="date" name="datedebut" required/></td>
+                        </tr>
+                        <tr>
+                            <th>Nombres de voyageurs : </th>
+                            <td>
+                                <!--menu déroulant-->
+                                <select name="voyageurs">
+                                    <optgroup>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <p>
+                                    179€ / nuits
+                                </p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <input id="bouton" type="submit" value="Envoyer">
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <h2>Vous pouvez aussi aimer :</h2>
+    <div class="recommandation">
+        <section class="articles recoone">
+            <a href="../../biens/cabanes/cabane1.html">
+                <!--image-->
+                <img src="../../assets/img/cabane/cabane1/cabane1_1.jpg" alt="Chalet des platanes"> 
+                <!--nom-->
+                <h3>Chalet des platanes</h3>
+                <!--location-->
+                <h4>La Grande-Fosse, France</h4>
+                <!--prix-->
+                <p class="prix">102€ / nuits</p>
+                <!--envoie vers une page descriptive-->
+            </a>
+        </section>
+        <section class="articles recotwo">
+            <a href="../../biens/cabanes/cabane2.html">
+                <!--image-->
+                <img src="../../assets/img/cabane/cabane2/cabane2_1.jpg" alt="Cabane en forêt 'la mechta'"> 
+                <!--nom-->
+                <h3>Cabane en forêt "la mechta"</h3>
+                <!--location-->
+                <h4>Bologne, France</h4>
+                <!--prix-->
+                <p class="prix">55€ / nuits</p>
+                <!--envoie vers une page descriptive-->
+            </a>
+        </section>
+    </div>
+    <footer>
+        <div id="footer">
+            <h2>Nous contacter</h2>
+            <p>Téléphone : 06.46.54.61.06</p>
+            <p>Email : eliott.pissis@supinfo.com</p>
+            <a href="../../contact.html"><p>Envoyer directement un message</p></a>
+            <p>&copy;Eliott Pissis - 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
